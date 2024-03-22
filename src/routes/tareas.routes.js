@@ -11,10 +11,6 @@ import validacionTarea from "../helpers/validacionTarea.js";
 
 const router = Router();
 
-// app.get('/nuevo/Tarea',(req, res)=>{
-//     console.log('aqui obtener la lista de todos los Tareas');
-//     res.send('Aqui enviaremos la lista de Tareas')
-//    })
 router
   .route("/Tareas")
   .get(listarTareas)

@@ -16,7 +16,7 @@ Este proyecto utiliza las siguientes dependencias:
 
 _ cors (^2.8.5): Middleware para Express que habilita el intercambio de recursos entre diferentes orígenes.
 
-: dotenv (^16.4.5): Carga variables de entorno desde un archivo .env en el entorno de Node.js.
+_ dotenv (^16.4.5): Carga variables de entorno desde un archivo .env en el entorno de Node.js.
 
 _ express (^4.18.3): Marco de aplicación web para Node.js que proporciona una infraestructura mínima para crear servidores web.
 
