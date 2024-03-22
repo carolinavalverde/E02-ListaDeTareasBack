@@ -52,7 +52,7 @@ export const editarTarea = async (req, res) => {
   }
 };
 
-export const borrarTarea = async (req, res) => {
+export const eliminarTarea = async (req, res) => {
   try {
     const tareaExistente = await Tarea.findById(req.params.id);
     if (!tareaExistente) {

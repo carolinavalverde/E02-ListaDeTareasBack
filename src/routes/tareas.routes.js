@@ -1,6 +1,6 @@
 import { Router } from "express";
 import {
-  borrarTarea,
+  eliminarTarea,
   crearTarea,
   editarTarea,
   listarTareas,
@@ -23,6 +23,6 @@ router
   .route("/Tareas/:id")
   .get(obtenerTarea)
   .put(editarTarea)
-  .delete(borrarTarea);
+  .delete(eliminarTarea);
 
 export default router;
